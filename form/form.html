@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            Digite seu nome (e clique em "Enviar") para entrar no sorteio:<br>
+
+            Primeiro nome: <input type="text" name="primeironome" value=""><br>
+            Último nome: <input type="text" name="ultimonome" value=""><br>
+
+        </p>
+
+        <p>
+            tipo radio<br>
+            <label>
+                legal
+                <input type="radio" name="legalounaolegal" value="legal">
+            </label>
+            <label>
+                não legal
+                <input type="radio" name="legalounaolegal" value="nao legal">
+            </label>
+        </p>
+
+        <p>
+            Tipo checkbox <br>
+                <label>
+                    Sal
+                    <input type="checkbox" name="tempero" value="sal">
+                </label>
+                <br>
+                <label>
+                    Pimenta
+                    <input type="checkbox" name="tempero" value="pimenta">
+                </label>
+                <br>
+                <label>
+                    Alho
+                    <input type="checkbox" name="tempero" value="alho">
+                </label>
+        </p>
+
+        <p>
+            <textarea name="comentarios" cols="48" rows="10"></textarea>
+        </p>
+
+        <p>
+            <select name="caracters">
+                <option value="buckaroo banzai">buckaroo banzai</option>
+                <option value="Tommy">Perfect Tommy</option>
+                <option value="Penny">Penny Priddy</option>
+                <option value="Jersey">New Jersey</option>
+                <option value="John">John Parker</option>
+            </select>
+        </p>
+
+        <input type="submit" value="Enviar Consulta">
+    </form>
+</body>
+</html>
