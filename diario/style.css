@@ -1,0 +1,73 @@
+body {
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    font-size: small;
+}
+
+h1,h2 {
+    font-weight: normal;
+    color: #cc6600;
+    /* text-decoration: underline; */
+    border-bottom: thin dotted #888888;
+}
+
+h1 {
+    font-size: 170%;
+    /* font-size: 1.7em; */
+}
+h2{
+    /* font-size: 1.3em; */
+    font-size: 130%;
+}
+
+table{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  caption-side: bottom;
+  /* border-spacing:0px; */
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+    background-color: #fcba7a;
+}
+
+td,th{
+    /* border-bottom: 1px solid black;
+    border-right: 1px solid black; */
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th{
+    background-color: #cc6600;
+}
+
+td.centralizado{
+    text-align: center;
+}
+td.direita{
+    text-align: right;
+}
+
+table table th{
+    background-color: transparent;
+}
+
+caption{
+    font-style: italic;
+    padding-top: 8px;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+ul{
+    list-style-image: url(img/backpack.gif);
+}
+
+li{
+    margin-top: 10px;
+    padding-top: 5px;
+}

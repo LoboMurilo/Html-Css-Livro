@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body{
+    
+    font-size: small;
+    line-height: 1.6em; 
+    font-family: Verdana,Tahoma, Arial, sans-serif;
+    /* 
+    atalho de fontes:
+    font: small/1.6em verdana, tahoma, arial, sans-serif; 
+    */
+}
+
+h1,h2 {
+    color: #007e7e;
+}
+
+h1{
+    font-size: 150%;
+}
+
+h2{
+    font-size: 130%;
+}
+
+a:link{
+    /* quando o link não foi visitado */
+    color: #007e7e;
+}
+
+a:visited{
+     /* quando o link já foi visitado */
+     color: #727070;
+}
+
+#garantia {
+    color: #444444;
+    background-color: #a7cece;
+    padding: 25px;
+    padding-left: 80px;
+    margin: 30px;
+    margin-right: 250px;
+    line-height: 1.9em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(img/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    border: 1px dashed white;
+}
+
+section#elixires{
+    width: 200px;
+    border: 1px solid #007e7e;
+    padding: 0px 20px 20px 20px;
+    margin-left: 20px;
+    text-align: center;
+    background-image: url(img/cocktail.gif);
+    background-repeat: repeat-x;
+    float: right;
+}
+
+section#elixires h2{
+    color: black;
+    line-height: 1.2em;
+}
+
+section#elixires article h3{
+    color: #d12c47;
+}
+
+section#elixires p{
+    line-height: 1em;
+}
+
+section#elixires aside p{
+    font-size: 0.8em;
+}
+
+section#elixires a:hover{
+    background-color: #fb5671;
+    color: #0d5050;
+}
+
+ul span.cd{
+    font-style: italic;
+}
+
+ul span.artista{
+    font-weight: bold;
+}
+
+footer {
+    font-size: 0.7em;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+}
